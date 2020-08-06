@@ -1,11 +1,11 @@
 === KiwiChat NextClient ===
-Contributors: kiwichat
+Contributors: kiwichat, showchat
 Tags: IRC, chat, webchat, kiwi, kiwiirc, nextclient, kiwiirc nextclient, embed, embedded, live chat, irc client, kiwichat
-Donate link: https://kiwichat.tk
+Donate link: https://showchat.tk
 Requires at least: 5.0
-Tested up to: 5.2
+Tested up to: 5.4
 Requires PHP: 5.6
-Stable tag: 1.0
+Stable tag: 3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,15 +26,23 @@ Instantly your users will be able to stay connected via IRC.
 
 Do you have something to say? Do you need help?
 See the support forum [Support Forum](https://wordpress.org/support/plugin/kiwichat/ "Support Forum")
-KiwiChat Home Page [KiwiChat](https://kiwichat.tk/ "KiwiChat")
+KiwiChat Home Page [KiwiChat](https://kiwichat.showchat.tk/ "KiwiChat")
 KiwiChat GitHub Page [KiwiChat GitHub](https://kiwichat.github.io/ "KiwiChat GitHub")
 
 == Installation ==
+
 1. Upload the "kiwichat" folder to the "/wp-content/plugins/" directory.
-1. Activate the plugin through the "Plugins" menu in WordPress.
-1. Place "[kiwichat]" shortcode in your pages or posts.
+2. Activate the plugin through the "Plugins" menu in WordPress.
+3. Place shortcode in your pages or posts:
+
+`[kiwichat]` 
+
+4. You can specify channel for a specific page instead of using the default channel configured with:
+
+`[kiwichat chan=#WebChat]` 
 
 == Screenshots ==
+
 1. Plugin configuration options page
 2. Capture KiwiChat Home Screen
 3. Capture KiwiChat Online Chat
@@ -45,7 +53,12 @@ KiwiChat GitHub Page [KiwiChat GitHub](https://kiwichat.github.io/ "KiwiChat Git
 = 1.0 =
 Initial release.
 
+= 2.0 =
+You can specify channel for a specific page instead of using the default channel
+
+= 3.0 =
+Link change, tested up to: 5.4
+
 == Upgrade Notice ==
 
-= 1.0 =
-Launch plugin.
+Stable version: 3.0
