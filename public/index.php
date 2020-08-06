@@ -8,8 +8,12 @@ function kiwichat_page( $atts ) {
 	  if (get_option('kiwichat_server') != '')
         $url = $url."#irc://".get_option('kiwichat_server');
 	
-		  if (get_option('kiwichat_chan') != '')
-        $url = $url."/".get_option('kiwichat_chan');
+	  $channels = isset($atts['chan']) ? $atts['chan'] : '';
+    if ($channels == '')
+        $channels = get_option('kiwichat_chan');
+    if ($channels != '')
+        $url = $url."/".$channels;
+
     if (get_option('kiwichat_nick') != '')
         $url = $url."?nick=".str_replace("?", rand(10000,99999), get_option('kiwichat_nick'));
 ?>
@@ -26,7 +30,7 @@ function kiwichat_page( $atts ) {
 ?>
             scrolling="no"
             frameborder="0">
-        </iframe><?php echo $powered; ?>
+        </iframe>
 <?php
 }
 function kiwichat( $atts ) {
