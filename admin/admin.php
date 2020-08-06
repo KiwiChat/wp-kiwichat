@@ -116,16 +116,16 @@ float: left;
 }
 </style>
 
-<div id="kiwichat-options" style="width:95%;margin-top:10px;">
+<div id="kiwichat-options" style="width:100%; margin-top:10px;">
     <div style="float: left; width: 300px;">
         <?php
-            echo '<a target="_blank" href="https://kiwichat.tk">';
+            echo '<a target="_blank" href="https://kiwichat.showchat.tk">';
             echo '<img style="border-radius:5px;border:0px;" src="' . plugins_url('images/kiwichat-logo.png', __FILE__) . '" > ';
             echo '</a>'; ?>
 		
  <div id="kiwichat-buttons">
  
-<a target="_blank" href="https://kiwichat.tk"><img src="<?php echo plugins_url( 'images/home.png', __FILE__ ) ?>" /></a>
+<a target="_blank" href="https://kiwichat.showchat.tk"><img src="<?php echo plugins_url( 'images/home.png', __FILE__ ) ?>" /></a>
 <a target="_blank" href="https://kiwichat.github.io"><img src="<?php echo plugins_url( 'images/github.png', __FILE__ ) ?>"  /></a>
 <a target="_blank" href="https://wordpress.org/support/plugin/kiwichat"><img src="<?php echo plugins_url( 'images/help.png', __FILE__ ) ?>" /></a>
 <a target="_blank" href="https://kiwiirc.com"><img src="<?php echo plugins_url( 'images/kiwiirc.png', __FILE__ ) ?>" /></a>
@@ -133,7 +133,7 @@ float: left;
   </div>  
     
 
-    <div style="float: left; margin-left: 10px; width: 700px; background-color:#f8f8f8; padding: 10px; border-radius: 5px;">
+    <div style="float: left; margin-left: 10px; width: 50%; background-color:#f8f8f8; padding: 10px; border-radius: 5px;">
         <h1>Configuring KiwiChat NextClient</h1>		
         <form method="POST" action="options.php">
             <?php
@@ -197,7 +197,7 @@ float: left;
 	  <div class="wrap">
 		         <div class="card pressthis">
             <h3>Enter the following code on a page: [kiwichat] </h3>
-				<p>For more documentation on usage and configuration <a href="https://kiwichat.tk" target="_blank" title="Documentation">Click Here.</a>
+				<p>For more documentation on usage and configuration <a href="https://kiwichat.showchat.tk" target="_blank" title="Documentation">Click Here.</a>
 			 
         </div> 
 		 </div>  
