@@ -119,13 +119,13 @@ float: left;
 <div id="kiwichat-options" style="width:100%; margin-top:10px;">
     <div style="float: left; width: 300px;">
         <?php
-            echo '<a target="_blank" href="https://kiwichat.showchat.tk">';
+            echo '<a target="_blank" href="https://github.com/KiwiChat/wp-kiwichat">';
             echo '<img style="border-radius:5px;border:0px;" src="' . plugins_url('images/kiwichat-logo.png', __FILE__) . '" > ';
             echo '</a>'; ?>
 		
  <div id="kiwichat-buttons">
  
-<a target="_blank" href="https://kiwichat.showchat.tk"><img src="<?php echo plugins_url( 'images/home.png', __FILE__ ) ?>" /></a>
+<a target="_blank" href="https://github.com/KiwiChat/wp-kiwichat"><img src="<?php echo plugins_url( 'images/home.png', __FILE__ ) ?>" /></a>
 <a target="_blank" href="https://kiwichat.github.io"><img src="<?php echo plugins_url( 'images/github.png', __FILE__ ) ?>"  /></a>
 <a target="_blank" href="https://wordpress.org/support/plugin/kiwichat"><img src="<?php echo plugins_url( 'images/help.png', __FILE__ ) ?>" /></a>
 <a target="_blank" href="https://kiwiirc.com"><img src="<?php echo plugins_url( 'images/kiwiirc.png', __FILE__ ) ?>" /></a>
@@ -197,7 +197,7 @@ float: left;
 	  <div class="wrap">
 		         <div class="card pressthis">
             <h3>Enter the following code on a page: [kiwichat] </h3>
-				<p>For more documentation on usage and configuration <a href="https://kiwichat.showchat.tk" target="_blank" title="Documentation">Click Here.</a>
+				<p>For more documentation on usage and configuration <a href="https://github.com/KiwiChat/wp-kiwichat/wiki" target="_blank" title="Documentation">Click Here.</a>
 			 
         </div> 
 		 </div>  
