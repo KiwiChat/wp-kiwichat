@@ -5,17 +5,17 @@ Plugin Name: KiwiChat NextClient
 Plugin URI: https://kiwichat.github.io
 Description: KiwiChat is an online chat client, your IRC client based on kiwiirc Add your networks. Join your channels.
 Author: KiwiChat
-Version: 4.0
-Author URI: https://showchat.tk
-License: GPL2
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Version: 5.0
+Author URI: https://kiwichat.github.io
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: kiwichat
 */
 
-/*  Copyright 2019 KiwiChat <kiwichat@email.com>
+/*  Copyright 2019 - 2021 KiwiChat <kiwichat@email.com>
 
     This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as
+    it under the terms of the GNU General Public License, version 3, as
     published by the Free Software Foundation.
 
     This program is distributed in the hope that it will be useful,
@@ -23,12 +23,11 @@ Text Domain: kiwichat
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+     You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-define( 'KIWICHAT_VERSION', '4.0' );
+define( 'KIWICHAT_VERSION', '5.0' );
 
 define( 'KIWIIRC', plugin_dir_path( __FILE__ ) );
 
