@@ -5,7 +5,7 @@ Plugin Name: KiwiChat NextClient
 Plugin URI: https://kiwichat.github.io
 Description: KiwiChat is an online chat client, your IRC client based on kiwiirc Add your networks. Join your channels.
 Author: KiwiChat
-Version: 3.0
+Version: 4.0
 Author URI: https://showchat.tk
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -28,7 +28,7 @@ Text Domain: kiwichat
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-define( 'KIWICHAT_VERSION', '3.0' );
+define( 'KIWICHAT_VERSION', '4.0' );
 
 define( 'KIWIIRC', plugin_dir_path( __FILE__ ) );
 
@@ -47,7 +47,7 @@ function kiwichat_plugin_links( $actions, $plugin_file ) {
 
     if ( $plugin == $plugin_file ) {
         $settings = array('settings' => '<a href="admin.php?page=settings_kiwichat">Settings</a>');
-        $site_link = array('support' => '<a href="https://kiwichat.showchat.tk" target="_blank">Suport</a>');
+        $site_link = array('support' => '<a href="https://kiwichat.github.io/" target="_blank">Suport</a>');
         $actions = array_merge($site_link, $actions);
         $actions = array_merge($settings, $actions);
     }
