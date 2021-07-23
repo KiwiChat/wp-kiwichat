@@ -1,13 +1,13 @@
 === KiwiChat NextClient ===
 Contributors: kiwichat, showchat
 Tags: IRC, chat, webchat, kiwi, kiwiirc, nextclient, kiwiirc nextclient, embed, embedded, live chat, irc client, kiwichat
-Donate link: https://showchat.tk
+Donate link: https://kiwichat.github.io
 Requires at least: 5.0
-Tested up to: 5.7
+Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 4.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 5.0
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 KiwiChat is an online chat client, your IRC client based on kiwiirc Add your networks. Join your channels.
 
@@ -27,7 +27,7 @@ Instantly your users will be able to stay connected via IRC.
 Do you have something to say? Do you need help?
 See the support forum [Support Forum](https://wordpress.org/support/plugin/kiwichat/ "Support Forum")
 KiwiChat Home Page [KiwiChat](https://kiwichat.github.io/ "KiwiChat")
-KiwiChat GitHub Page [KiwiChat GitHub](https://github.com/KiwiChat/wp-kiwichat "KiwiChat GitHub")
+KiwiChat GitHub Page [KiwiChat GitHub](https://github.com/KiwiChat/KiwiChat/tree/main/trunk "KiwiChat GitHub")
 
 == Installation ==
 
@@ -62,6 +62,9 @@ Link change, tested up to: 5.4
 = 4.0 =
 Tested up to: 5.7
 
+= 5.0 =
+Up to: 5.8
+
 == Upgrade Notice ==
 
-Stable version: 4.0
+Stable version: 5.0
