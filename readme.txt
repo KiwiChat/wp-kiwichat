@@ -3,9 +3,9 @@ Contributors: kiwichat, showchat
 Tags: IRC, chat, webchat, kiwi, kiwiirc, nextclient, kiwiirc nextclient, embed, embedded, live chat, irc client, kiwichat
 Donate link: https://showchat.tk
 Requires at least: 5.0
-Tested up to: 5.4
+Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 3.0
+Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,8 +26,8 @@ Instantly your users will be able to stay connected via IRC.
 
 Do you have something to say? Do you need help?
 See the support forum [Support Forum](https://wordpress.org/support/plugin/kiwichat/ "Support Forum")
-KiwiChat Home Page [KiwiChat](https://kiwichat.showchat.tk/ "KiwiChat")
-KiwiChat GitHub Page [KiwiChat GitHub](https://kiwichat.github.io/ "KiwiChat GitHub")
+KiwiChat Home Page [KiwiChat](https://kiwichat.github.io/ "KiwiChat")
+KiwiChat GitHub Page [KiwiChat GitHub](https://github.com/KiwiChat/wp-kiwichat "KiwiChat GitHub")
 
 == Installation ==
 
@@ -59,6 +59,9 @@ You can specify channel for a specific page instead of using the default channel
 = 3.0 =
 Link change, tested up to: 5.4
 
+= 4.0 =
+Tested up to: 5.7
+
 == Upgrade Notice ==
 
-Stable version: 3.0
+Stable version: 4.0
