@@ -197,7 +197,8 @@ float: left;
 	  <div class="wrap">
 		         <div class="card pressthis">
             <h3>Enter the following code on a page: [kiwichat] </h3>
-				<p>For more documentation on usage and configuration <a href="https://github.com/KiwiChat/wp-kiwichat/wiki" target="_blank" title="Documentation">Click Here.</a>
+				<p>For more documentation on usage and configuration <a href="https://kiwichat.github.io" target="_blank" title="Documentation">Click Here.</a>
+				<p>Current stable version of the plugin 5.0</p>
 			 
         </div> 
 		 </div>  
