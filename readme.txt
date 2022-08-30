@@ -27,7 +27,7 @@ Instantly your users will be able to stay connected via IRC.
 Do you have something to say? Do you need help?
 See the support forum [Support Forum](https://wordpress.org/support/plugin/kiwichat/ "Support Forum")
 KiwiChat Home Page [KiwiChat](https://kiwichat.github.io/ "KiwiChat")
-KiwiChat GitHub Page [KiwiChat GitHub](https://github.com/KiwiChat/KiwiChat/tree/main/trunk "KiwiChat GitHub")
+KiwiChat GitHub Page [KiwiChat GitHub](https://github.com/KiwiChat/wp-kiwichat "KiwiChat GitHub")
 
 == Installation ==
 
