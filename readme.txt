@@ -2,10 +2,10 @@
 Contributors: kiwichat, showchat
 Tags: IRC, chat, webchat, kiwi, kiwiirc, nextclient, kiwiirc nextclient, embed, embedded, live chat, irc client, kiwichat
 Donate link: https://kiwichat.github.io
-Requires at least: 5.0
-Tested up to: 5.8
+Requires at least: 6.0
+Tested up to: 6.0.1
 Requires PHP: 5.6
-Stable tag: 5.0
+Stable tag: 6.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -65,6 +65,10 @@ Tested up to: 5.7
 = 5.0 =
 Up to: 5.8
 
+
+= 6.0 =
+Up to: 6.0.1
+
 == Upgrade Notice ==
 
-Stable version: 5.0
+Stable version: 6.0
