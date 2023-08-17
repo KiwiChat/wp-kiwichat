@@ -34,6 +34,8 @@ function kiwichat_info() {
                      'kiwichat_height');
     register_setting('kiwichat-nextlient',
                      'kiwichat_width');
+	register_setting('kiwichat-nextlient', // charset attribute
+                     'kiwichat_coding');
 }
 
 add_action('admin_init', 'kiwichat_info');
@@ -145,7 +147,7 @@ float: left;
 		<tr>
     <td><strong><?php _e("Network Server:" ); ?></strong></td>
     <td><input type="text" id="kiwichat_server" name="kiwichat_server" value="<?php echo get_option('kiwichat_server'); ?>" size="25"></td>
-    <td><em>Network IRC Server de chat.(Default is irc.romaniachat.eu)</em></td>
+    <td><em>Network IRC Server de chat.(Default is irc.libera.chat)</em></td>
   </tr>   
 	    
 	<tr>
@@ -157,7 +159,7 @@ float: left;
     <tr>
     <td><strong><?php _e("Channel:" ); ?></strong></td>
     <td><input type="text" name="kiwichat_chan"  value="<?php echo get_option('kiwichat_chan'); ?>" size="25"></td>
-    <td><em>The name of your chatroom. (Default is #Romania)</em></td>
+    <td><em>The name of your chatroom. (Default is #libera)</em></td>
   </tr>
 						
   <tr>
@@ -185,11 +187,16 @@ float: left;
   
   <tr>
     <td><strong><?php _e("Height:" ); ?></strong></td>
-    <td><input type="text"
-	name="kiwichat_height"
-	id="kiwichat_height"
+    <td><input type="text" name="kiwichat_height" id="kiwichat_height"
     value="<?php echo get_option('kiwichat_height'); ?>" size="8"></td>
     <td><em>Height of your chatroom. (Default is 500)</em></td>
+  </tr>
+  
+    <tr>
+    <td><strong><?php _e("Coding:" ); ?></strong></td>
+    <td><input type="text" name="kiwichat_coding" id="kiwichat_coding"
+    value="<?php echo get_option('kiwichat_coding'); ?>" size="8"></td>
+    <td><em>Character Set Names. (Default is utf8)</em></td>
   </tr>
 <br/>
 		       </table>	
@@ -198,7 +205,7 @@ float: left;
 		         <div class="card pressthis">
             <h3>Enter the following code on a page: [kiwichat] </h3>
 				<p>For more documentation on usage and configuration <a href="https://kiwichat.github.io" target="_blank" title="Documentation">Click Here.</a>
-				<p>Current stable version of the plugin 6.0</p>
+				<p>Current stable version of the plugin 6.1</p>
 			 
         </div> 
 		 </div>  
