@@ -5,14 +5,14 @@ Plugin Name: KiwiChat NextClient
 Plugin URI: https://kiwichat.github.io
 Description: KiwiChat is an online chat client, your IRC client based on kiwiirc Add your networks. Join your channels.
 Author: KiwiChat
-Version: 6.0
+Version: 6.1
 Author URI: https://kiwichat.github.io
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: kiwichat
 */
 
-/*  Copyright 2019 - 2022 KiwiChat <kiwichat@email.com>
+/*  Copyright 2019 - 2023 KiwiChat <kiwichat@email.com>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 3, as
@@ -27,7 +27,7 @@ Text Domain: kiwichat
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-define( 'KIWICHAT_VERSION', '6.0' );
+define( 'KIWICHAT_VERSION', '6.1' );
 
 define( 'KIWIIRC', plugin_dir_path( __FILE__ ) );
 
@@ -59,10 +59,11 @@ add_filter( 'plugin_action_links', 'kiwichat_plugin_links', 10, 5 );
 function kiwichat_set_defaults()
 {
     $config = array(
-	'kiwichat_style'     => 'Radioactive',
-	'kiwichat_server'    => 'irc.romaniachat.eu',
+		'kiwichat_style'     => 'Radioactive',
+		'kiwichat_server'    => 'irc.libera.chat',
         'kiwichat_nick'      => 'KiwiChat_?',
-        'kiwichat_chan'      => '#Romania',
+        'kiwichat_chan'      => '#libera',
+		'kiwichat_coding'    => 'utf8', /* default encoding of utf8 */
         'kiwichat_height'    => '500',
         'kiwichat_width'     => '100%',
     );
