@@ -16,20 +16,16 @@ function kiwichat_page( $atts ) {
 
     if (get_option('kiwichat_nick') != '')
         $url = $url."?nick=".str_replace("?", rand(10000,99999), get_option('kiwichat_nick'));
+	/* charset attribute */
+	 if (get_option('kiwichat_coding') != '')
+        $url = $url."&".get_option('kiwichat_coding');
+	
 ?>
 <center>
-        <iframe
-            marginwidth="0"
-            marginheight="0"
-            src="<?php echo $url; ?>"
+        <iframe marginwidth="0" marginheight="0" src="<?php echo $url; ?>"
 <?php
-    if (get_option('kiwichat_width') != '')
-        echo "width=\"".get_option('kiwichat_width')."\"";
-    if (get_option('kiwichat_height') != '')
-        echo "height=\"".get_option('kiwichat_height')."\"";
-?>
-            scrolling="no"
-            frameborder="0">
+    if (get_option('kiwichat_width') != '') echo "width=\"".get_option('kiwichat_width')."\"";
+    if (get_option('kiwichat_height') != '') echo "height=\"".get_option('kiwichat_height')."\"";?> scrolling="no" frameborder="0">
         </iframe>
 <?php
 }
