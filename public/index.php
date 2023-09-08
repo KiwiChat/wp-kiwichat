@@ -18,7 +18,7 @@ function kiwichat_page( $atts ) {
         $url = $url."?nick=".str_replace("?", rand(10000,99999), get_option('kiwichat_nick'));
 	/* charset attribute */
 	 if (get_option('kiwichat_coding') != '')
-        $url = $url."&".get_option('kiwichat_coding');
+        $url = $url."&encoding=".get_option('kiwichat_coding');
 	
 ?>
 <center>

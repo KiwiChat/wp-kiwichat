@@ -5,7 +5,7 @@ Plugin Name: KiwiChat NextClient
 Plugin URI: https://kiwichat.github.io
 Description: KiwiChat is an online chat client, your IRC client based on kiwiirc Add your networks. Join your channels.
 Author: KiwiChat
-Version: 6.1
+Version: 6.2
 Author URI: https://kiwichat.github.io
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -27,7 +27,7 @@ Text Domain: kiwichat
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-define( 'KIWICHAT_VERSION', '6.1' );
+define( 'KIWICHAT_VERSION', '6.2' );
 
 define( 'KIWIIRC', plugin_dir_path( __FILE__ ) );
 
